@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: rgb(226, 237, 252);
+}
+.ul_parent{
+    width: 30vw;
+    height: 70vh;
+    margin: 70px auto;
+    padding: 2%;
+    /* border: 2px solid black; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 30px;
+    box-shadow: 0 0 20px rgb(68, 67, 67);
+}
+.ul_parent> div{
+    width: 80%;
+    margin: 0 auto;
+}
+.crhead{
+    color: blue;
+}
+.gl_con{
+    display: flex;
+    padding: 7px ;
+    align-items: center;
+    width: 70%;
+    gap: 10px;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 2px;
+    border: 1px solid black;
+    /* background-color: rgb(213, 218, 218); */
+    
+}
+.gl_con img{
+    width: 30px ;
+
+}
+.orline{
+ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 10px;
+    gap: 3px;
+
+
+}
+.orline span{
+    width: 100px;
+    background-color: rgb(142, 142, 142);
+    height: 2px;
+}
+.ml_con{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    width: 100%;
+
+}
+.ml_con label{
+    
+}
+.phoneinputcon{
+font-size: 18PX;
+display: flex;
+width: 100%;
+margin-bottom: 10px;
+
+}
+.phoneinputcon span{
+    padding: 5px;
+    border: 1px solid black;
+}
+.ml_con input{
+    width: 100%;
+    padding: 5px;
+    outline: NONE;
+    border: 1px solid black;
+}
+.ml_con button{
+    padding: 4px 25px;
+    width: fit-content;
+    margin: 10px auto;
+}
+.ml_con button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+}
+.ml_otpcon {
+   width: 100%;
+}
+.lgbackbtn{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 6px;
+    width: fit-content;
+    border-radius: 7px;
+
+}

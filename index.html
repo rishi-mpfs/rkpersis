@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <script src="js/auth.js"></script>
+</head>
+<body>
+
+  <header>
+    <button onclick="handleAccountClick()">My Account</button>
+  </header>
+
+  <script>
+    function handleAccountClick() {
+      if (Auth.isAuthenticated()) {
+        window.location.href = "dashboard.html";
+      } else {
+        window.location.href = "login.html";
+      }
+    }
+  </script>
+</body>
+</html>
